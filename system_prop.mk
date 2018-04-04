@@ -42,7 +42,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.gralloc.gfx_ubwc_disable=0 \
     debug.sf.latch_unsignaled=1 \
     persist.vendor.color.matrix=2 \
-    debug.hwui.use_buffer_age=false
+    debug.hwui.use_buffer_age=false \
+    debug.sf.early_phase_offset_ns=5000000
 
 # IOP
 PRODUCT_PROPERTY_OVERRIDES += \
